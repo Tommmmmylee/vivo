@@ -1,57 +1,276 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Vivo by Tommmmmylee</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Vivo</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/Tommmmmylee/vivo" class="btn">View on GitHub</a>
-      <a href="https://github.com/Tommmmmylee/vivo/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/Tommmmmylee/vivo/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<html>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>vivo</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/game.css" />
+	</head>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+	<body>
+		<div id="container">
+			<!--加载----------------->
+			<div id="loading" class="pages">
+				<img src="img/loading_0.png" alt="" />
+				<img src="img/loading_1.png" alt="" id="loadingWord" />
+			</div>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+			<!--第一页:报幕----------------->
+			<div id="page1" class="page pages" style="display: none;">
+				<div id="wordTips">
+					<p>公元9025年</p>
+					<p>外星人为了争夺</p>
+					<p>封印在vivo手机中的神秘能量</p>
+					<p>发起宇宙战乱</p>
+					<p>超人徐峥为了保卫神秘能量</p>
+					<p>带着手机来到浩瀚宇宙中</p>
+					<p>分身成为8个自己</p>
+					<p>分别保卫8块手机碎片</p>
+					<p>消失在太阳系的八大行星中</p>
+					<p>据说找齐徐峥的8个分身</p>
+					<p>就能启动神秘能量保护地球</p>
+					<p>...</p>
+				</div>
+				<div class="planet-1"><img src="img/page1_0.png" alt="" /></div>
+				<div class="planet-2"><img src="img/page1_1.png" alt="" /></div>
+				<div class="planet-3"><img src="img/page1_2.png" alt="" /></div>
+			</div>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+			<!--第二页:超人飞出------------------>
+			<div id="page2" class="page pages" style="display: none;">
+				<div class="planet-1"><img src="img/page1_0.png" alt="" /></div>
+				<div class="planet-2"><img src="img/page1_1.png" alt="" /></div>
+				<div class="planet-3"><img src="img/page1_2.png" alt="" /></div>
+				<div class="planet-4"><img src="img/page1_3.png"></div>
+				<div id="superman1" class="superman">
+					<img src="img/page1_5.png" />
+					<!--<img src="img/page1_4.png"/>-->
+				</div>
+			</div>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+			<!--第三页:vivo--------------->
+			<div id="page3" class="page pages" style="display: none;">
+				<!--<div class="planet-1"><img src="img/page1_0.png" alt="" /></div>-->
+				<div class="planet-2"><img src="img/page1_1.png" alt="" /></div>
+				<div class="planet-3"><img src="img/page1_2.png" alt="" /></div>
+				<div class="planet-4"><img src="img/page1_3.png"></div>
+				<div id="vivo">
+					<img src="img/page1_6.png" />
+				</div>
+			</div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+			<!--第四页:vivo--------------->
+			<div id="page4" class="page pages" style="display: none;">
+				<div id="vivo2">
+					<img src="img/page1_6.png" data-src="img/page1_6.png">
+					<img src="img/page1_6_1.png" data-src="img/page1_6_1.png" class="chip">
+					<img src="img/page1_6_2.png" data-src="img/page1_6_2.png" class="chip">
+					<img src="img/page1_6_3.png" data-src="img/page1_6_3.png" class="chip">
+					<img src="img/page1_6_4.png" data-src="img/page1_6_4.png" class="chip">
+					<img src="img/page1_6_5.png" data-src="img/page1_6_5.png" class="chip">
+					<img src="img/page1_6_6.png" data-src="img/page1_6_6.png" class="chip">
+					<img src="img/page1_6_7.png" data-src="img/page1_6_7.png" class="chip">
+					<img src="img/page1_6_8.png" data-src="img/page1_6_8.png" class="chip">
+				</div>
+			</div>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+			<!--第五页:vivo--------------->
+			<div id="page5" class="page pages" style="display: none;">
+				<div class="chip1">
+					<img src="img/chip_1.png" data-src="img/page1_6_1.png" class="chip">
+				</div>
+				<div class="chip2">
+					<img src="img/chip_2.png" data-src="img/page1_6_2.png" class="chip">
+				</div>
+				<div class="chip3">
+					<img src="img/chip_3.png" data-src="img/page1_6_3.png" class="chip">
+				</div>
+				<div class="chip4">
+					<img src="img/chip_4.png" data-src="img/page1_6_4.png" class="chip">
+				</div>
+				<div class="chip5">
+					<img src="img/chip_5.png" data-src="img/page1_6_5.png" class="chip">
+				</div>
+				<div class="chip6">
+					<img src="img/chip_6.png" data-src="img/page1_6_6.png" class="chip">
+				</div>
+				<div class="chip7">
+					<img src="img/chip_7.png" data-src="img/page1_6_7.png" class="chip">
+				</div>
+				<div class="chip8">
+					<img src="img/chip_8.png" data-src="img/page1_6_8.png" class="chip">
+				</div>
+				<div class="star" id="star1">
+					<img src="img/star_1.png">
+				</div>
+				<div class="star" id="star2">
+					<img src="img/star_2.png">
+				</div>
+				<div class="star" id="star3">
+					<img src="img/star_3.png">
+				</div>
+				<div class="star" id="star4">
+					<img src="img/star_4.png">
+				</div>
+				<div class="star" id="star5">
+					<img src="img/star_5.png">
+				</div>
+				<div class="star" id="star6">
+					<img src="img/star_6.png">
+				</div>
+				<div class="star" id="star7">
+					<img src="img/star_7.png">
+				</div>
+				<div class="star" id="star8">
+					<img src="img/star_8.png">
+				</div>
+				<p id="txt">
+					找齐徐峥,启动能量
+				</p>
+				<section id="downArrow" class="down-arrow"></section>
+			</div>
+			<!--游戏第一关-->
+			<div id="game1" class="games" style="display: none;">
+				<div class="part">第1关 金星</div>
+				<div class="time">40:00</div>
+				<div id="inner"></div>
+				<div id="mask" style="display: none;">
+					<div class="mask mask1" style="display: none;">
+						<div class="jiang"></div>
+						<!--<img src="img/page_explain_bg.png" alt="" />-->
+						<div class="tu">
+							<img src="img/chip_5.png" alt="" />
+						</div>
+						<p></p>
+					</div>
+					<div class="mask mask2" style="display: none;">
+						<p>很遗憾</p>
+						<p>你没有找齐徐峥的8个分身<br />看来他要一直囧在宇宙太阳系了</p>
+						<input type="button" value="再来一次" id="againBtn" />
+						<input type="button" value="游戏说明" id="instructionBtn" />
+					</div>
+				</div>
+			</div>
 
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+		</div>
+	</body>
+	<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$("#downArrow")[0].onclick = function(){
+			$('#page5').css('display','none');
+			$('#game1').css('display','block');
+			gameFn();
+		}
+		function gameFn() {
+			//游戏倒计时
+			gameOverTime();
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+			function gameOverTime() {
+				var t = 20;
+				var timer = setInterval(function() {
+					if(t <= 0) {
+						$("#mask").css('display', 'block');
+						$('.mask2').css('display', 'block');
+						clearInterval(timer);
+					} else {
+						$("#game1 .time").text(t.toFixed(2));
+					}
+					t -= 0.02;
+				}, 20);
+			}
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+			console.log($('#againBtn'));
+			$('#againBtn')[0].onclick = function() {
+				console.log('腻害');
+				$("#mask").css('display', 'none');
+				$('.mask2').css('display', 'none');
+				num = 1;
+				createImgFn();
+				gameOverTime();
+			}
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/Tommmmmylee/vivo">Vivo</a> is maintained by <a href="https://github.com/Tommmmmylee">Tommmmmylee</a>.</span>
+			var num = 1;
+			createImgFn();
+			//创建图片
+			function createImgFn() {
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+				$("#inner").html('');
+				num++;
+				//放房祖名图片的位置
+				var randonNum = rnd(0, num * num);
+				$("#inner").html('');
+				for(var i = 0; i < num * num; i++) {
+					var $img = $("<img/>");
+					$img.attr("src", 'img/1.png');
+					$("#inner").append($img);
+					$img.css("width", 100 / num + '%');
 
-    </section>
+					if(i == randonNum) {
+						$img.attr("src", 'img/2.png');
+						$img.css("backgroundColor", 'red');
+						console.log($img);
+						$img[0].onclick = function() {
+							$("#mask").css({
+								"display": "block"
+							});
+							$(".mask1").css({
+								"display": "block"
+							});
 
-  
-  </body>
+							texFn();
+							maskFn();
+							setTimeout(function() {
+								guanFn();
+								$("#mask").fadeOut(2000, function() {
+									console.log("diaoong");
+
+									$(".mask1").css({
+										"display": "none"
+									});
+								});
+							}, 2000)
+							console.log('a');
+							createImgFn();
+						}
+					}
+				}
+			}
+			//-------------关卡----------
+			var guanArr = ['金星', '木星', '水星', '火星', '土星', '地球', '天王星', '海王星'];
+
+			function guanFn() {
+				$("#game1 .part").html('第' + (num - 1) + '关 ' + guanArr[num - 1]);
+			}
+
+			//-------------关卡碎片----------
+			var maskArr = ['img/chip_1.png', 'img/chip_2.png', 'img/chip_3.png', 'img/chip_4.png', 'img/chip_5.png', 'img/chip_6.png', 'img/chip_7.png', 'img/chip_8.png']
+
+			function maskFn() {
+				console.log(num);
+				$(".jiang").html('你获得' + (num - 1) + '/8碎片');
+				$('.tu img').attr('src', maskArr[num - 1]);
+				console.log($('.tu img'));
+			}
+			//-------------关卡文字----------
+			var txtArr = ['像初恋一样手感的<br/>双2.5d弧面玻璃', '帮助你放火防盗防女友<br/>的眼球识别加密系统',
+				'帮你省下单反钱的<br/>1300万像素摄像头', '促进多巴胺分泌<br/>的Hi-Fi音质', '可以自动区分女汉子<br/>和萌妹子的美颜手机',
+				'快得能让事件变慢的<br/>八核1.7GHz处理器', '轻松抓拍多动症患者的<br/>PADF快速相位对焦系统',
+				'Duang Duang Duang 效果<br/>的Funntouch os系统'
+			];
+
+			function texFn() {
+				$("#mask .mask1 p").html(txtArr[num - 2]);
+			}
+
+			function rnd(min, max) {
+				return parseInt(Math.random() * (max - min) + min);
+			}
+		}
+	</script>
+
 </html>
